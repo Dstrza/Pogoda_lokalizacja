@@ -1,0 +1,91 @@
+html {
+  background: rgba(231, 195, 195, 0.44);
+}
+
+body {
+  padding: 10px 20px 10px 20px;
+  color: #1C6EA4;
+  text-align: center;
+  border: 30px groove #1C6EA4;
+  border-radius: 10px 40px 10px 40px;
+  margin: 100px auto;
+  max-width: 280px;
+  max-height: 500px;
+
+}
+
+.webTitle {
+  text-shadow: 9px 3px 20px rgba(28, 110, 164, 0.58);
+  color: #0d3550;
+  font-size: 19px;
+}
+
+.date {
+  font-size: 21px;
+}
+
+.city {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 200%;
+  color: #0d3550;
+}
+
+.city:hover {
+  color: #1C6EA4;
+}
+
+.temp {
+  font-size: 60px;
+  color: #0d3550;
+}
+
+.temp:hover {
+  color: #1C6EA4;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.description:hover {
+  font-size: 30px;
+}
+
+
+.press {
+  font-size: 30px;
+}
+
+
+#fahrenheit {
+  background-color: #1C6EA4;
+  color: #0d3550;
+  border-color: #0d3550;
+
+}
+
+#fahrenheit {
+  color: #cddbe7;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 7px;
+  border-radius: 11px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+  box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+  border: 2px solid rgb(28, 110, 164);
+  display: inline-block;
+}
+
+#fahrenheit:hover {
+  background: #1C6EA4;
+}
+
+#fahrenheit:active {
+  background: #144E75;
+}
